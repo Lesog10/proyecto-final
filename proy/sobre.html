@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre la Tienda</title>
+    <link rel="stylesheet" href="Estilos/sobre.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        .register-button {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: #3498db;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+        }
+
+        .register-button:hover {
+            background-color: #2980b9;
+        }
+        @media only screen and (max-width: 600px) {
+    .container {
+        width: 90%;
+        padding: 10px;
+    }
+    .cabezera {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .menu {
+        flex-direction: column;
+        gap: 5px;
+    }
+    .titulo img {
+        width: 50px;
+        height: 50px;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    .form-group input, .form-group select {
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .container {
+        width: 85%;
+        padding: 15px;
+    }
+    .cabezera {
+        grid-template-columns: 1fr 2fr;
+    }
+    .menu {
+        justify-content: space-around;
+    }
+    .titulo img {
+        width: 75px;
+        height: 75px;
+    }
+    h1 {
+        font-size: 1.8rem;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .container {
+        width: 80%;
+        padding: 20px;
+    }
+    .menu {
+        justify-content: space-between;
+    }
+    .titulo img {
+        width: 90px;
+        height: 90px;
+    }
+}
+@media only screen and (min-width: 1025px) {
+    .container {
+        width: 70%;
+    }
+    .titulo img {
+        width: 100px;
+        height: 100px;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="cabezera">
+        <div class="titulo"><img src="imagenes/simple-motorbike-icon-df8f45.webp" alt="" width="100px" height="100px"><h1>MOTO<span class="ride">RIDE</span></h1></div>
+        <div class="menu">
+            <ul class="like">
+                <a href="index.html">Principal</a>
+                <a href="repuestos.html">Repuestos</a>
+                <a href="accesorios.html">Accesorios</a>
+                <a href="descuentos.html">Descuentos</a>
+                <a href="sobre.html">Sobre la Tienda</a>
+            </ul>
+        </div>
+    </div>
+    <nav>
+        <div class="principal">
+            <div class="subt"><h2>SOBRE LA TIENDA</h2></div>
+            <h2>Políticas de la Tienda</h2>
+            <p><strong>1. Política de Devoluciones</strong><br>
+            En Motorizada XYZ, queremos que esté completamente satisfecho con su compra. Si no está satisfecho con su producto, puede devolverlo dentro de los 30 días posteriores a la compra para obtener un reembolso completo o un intercambio. Los productos deben estar en su estado original, sin uso y en su embalaje original.</p>
+
+            <p><strong>2. Política de Garantía</strong><br>
+            Todos nuestros productos vienen con una garantía de 12 meses contra defectos de fabricación. La garantía no cubre daños causados por mal uso, accidentes o modificaciones no autorizadas.</p>
+
+            <p><strong>3. Envíos y Entregas</strong><br>
+            Ofrecemos envío gratuito en pedidos superiores a $100. Los pedidos se procesan en un plazo de 1-2 días hábiles y se entregan en un promedio de 5-7 días hábiles. No ofrecemos envío internacional en este momento.</p>
+
+            <p><strong>4. Privacidad y Seguridad</strong><br>
+            Su privacidad es importante para nosotros. Utilizamos tecnología de cifrado avanzada para proteger su información personal y financiera. No compartimos sus datos con terceros sin su consentimiento.</p>
+        </div>
+
+        <div class="section contact-info">
+            <h2>Dirección y Contacto</h2>
+            <p><strong>Motorizada XYZ</strong><br>
+            Avenida de las Motocicletas, 123<br>
+            Ciudad Motorizada, MX 45678</p>
+
+            <p><strong>Teléfono:</strong> (555) 123-4567<br>
+            <strong>Correo Electrónico:</strong> motoride@gmail.com</p>
+
+            <h3>Horario de Atención:</h3>
+            <p>Lunes a Viernes: 9:00 AM - 6:00 PM<br>
+            Sábados: 10:00 AM - 4:00 PM<br>
+            Domingos: Cerrado</p>
+        </div>
+        <a href="compra.html" class="register-button">Ir al Registro</a>
+
+    <footer><center><h4>°Copyright 2024</h4></center></footer>
+</body>
+</html>

@@ -1,0 +1,51 @@
+[
+    {
+        "modelo":"Ford Mustang",
+        "produccion":"2010",
+        "millaje":"12000",
+        "imagen":"harley/1.webp",
+        "enlace":"pg.html"
+    },
+    {
+        "modelo":"Honda Acord",
+        "produccion":"2021",
+        "millaje":"4600",
+        "imagen":"harley/2.webp",
+        "enlace":"pg.html"
+    },
+    {
+        "modelo":"Volkswagen Golf",
+        "produccion":"2016",
+        "millaje":"58200",
+        "imagen":"harley/3.webp",
+        "enlace":"pg.html"
+    },
+    {
+        "modelo":"Honda Civic",
+        "produccion":"2012",
+        "millaje":"13000",
+        "imagen":"harley/4.webp",
+        "enlace":"pg.html"
+    },
+    {
+        "modelo":"!!CUCHAU¡¡",
+        "produccion":"2025",
+        "millaje":"50000",
+        "imagen":"imagenes/cuchau.jfif",
+        "enlace":"pg.html"
+    },
+    {
+        "modelo":"!!TO MATE¡¡",
+        "produccion":"1935",
+        "millaje":"1043000",
+        "imagen":"imagenes/tomate.jfif",
+        "enlace":"pg.html"
+    },
+    {
+        "modelo":"FRANCCESCO VIRGOLINI !!FIUUUUUUU¡¡",
+        "produccion":"2015",
+        "millaje":"50000",
+        "imagen":"imagenes/francesco.jfif",
+        "enlace":"pg.html"
+    }
+]
